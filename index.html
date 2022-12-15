@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="display-4 text-center">Latest Covid 19 Data</div>
+    <div class= "APIContainer">
+       <div class="covidInput">
+        <p>Select a country:</p>
+        <select class="form-control" id="countries">
+            <option>Select a country</option>
+        </select>
+       </div>
+       <hr class="mySeparator">
+       <div class="text-center">
+
+        <p class="marginTopBottom" id="covidTotalConfirmed">Total confirmed cases: /</p>
+        <p class="marginTopBottom" id="covidNewConfirmed">New confirmed cases: /</p>
+        <p class="marginTopBottom" id="covidInfectionRisk">Infection risk: /</p>
+        
+       </div>
+
+       <div class="display-4 text-center">Covid 19 Recovery Data</div>
+       <div class="API Container">
+        <div class="covidRecoveryInput">
+            <p>Select a country:</p>
+        <select class="form control" id="countries">
+            <option>Select a country</option>
+        </select>
+        
+        </div>
+        <hr class="mySeparator">
+        <div class="text-center">
+        <p class ="marginTopBottom" id="covidTotalRecovered">Total recoveries recorded</p>
+        <p class="marginTopBottom" id="covidNewRecoveries">New recoveries recorded</p>
+        <p class="marginTopBottom" id="covidRecoveryPeriod">Estimated recovery period</p>
+        
+     </div>
+     
+     
+     <div style="margin-left: 20px">
+        <input class="form-control marginTopBottom" type="text" id="inputDayOfCovid+Result" value="dd/mm/yyyy">
+        <input class="form-control marginTopBottom" type="text" id="inputDayOfCovid-Result" value="dd/mm/yyyy">
+        <button class="btn btn-primary" id="buttongetRecoveryPeriod">Calculate</button>
+      </div>
+      
+      <div class="recoveryResult">
+        <h4 id="recoveryResult">Result: 0</h4>
+      </div>
+     
+     
+     <div class="display-4 text-center">Vovid 19 Vaccine efficiency</div>
+     <div class="APIContainer">
+    <div class="covidVaccineEfficiency">
+        <p>Select a vaccine:</p>
+        <select class="form control" id="type of vaccines">
+            <option> Select a vaccine</option>
+        </select>
+        <hr class="mySeparator">
+        <div class="text-center">
+            <p class ="marginTopBottom" id="covidvaccineeffeciency">Covid vaccine efficiency</p>
+            <p class="marginTopBottom" id="covidvaccineefficiencyafterrecoveryfromcovid19">Vaccine efficiency in those who have recovered from Covid19 </p>
+             
+     </div>
+    </div>
+
+     </div>
+
+    </div>
+ 
+    
+    </div>
+   
+
+
+    
+
+    <script src="js/main.js"></script>
+</body>
+</html>

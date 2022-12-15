@@ -1,0 +1,81 @@
+body {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: beige;
+}
+
+.APIContainer {
+    margin: 60px auto 160px auto;
+    padding: 20px 30px 20px 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 50%;
+    min-width: 500px;
+    height: 30%;
+}
+
+
+.marginTopBottom{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.covidInput {
+    display: flex;
+    justify-content: center;
+    line-height: 2;
+}
+
+#countries {
+    margin-left: 20px;
+    width: 30%;
+}
+
+.mySeparator {
+    height: 0.5px;
+    width: 80%;
+    background-color: white;
+}
+
+.covidRecoveryInput {
+    display: flex;
+    justify-content: center;
+    line-height: 2;
+}
+
+#countries {
+    margin-left: 20px;
+    width: 30%;
+}
+
+.mySeparator {
+    height: 0.5px;
+    width: 80%;
+    background-color: whitesmoke;
+}
+.recoveryResult{
+    margin: auto;
+}
+
+#buttongetRecoveryData {
+    width: 100%;
+}
+
+.covidVaccineEfficiency {
+    display: flex;
+    justify-content: center;
+    line-height: 2;
+}
+
+#countries {
+    margin-left: 20px;
+    width: 30%;
+}
+
+.mySeparator {
+    height: 0.5px;
+    width: 80%;
+    background-color: whitesmoke;
+}
+
